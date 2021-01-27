@@ -1,5 +1,5 @@
-# My-Projects
-This is my list of personal and professional projects that i've done. Feel free to look and give feedbacks if you want!
+# ABDUL HAKIM MUZAKKI - MY PROJECTS
+Hi there! Welcome to my portofolio page. This is my list of personal and professional projects that i've done. Feel free to look and give feedbacks if you want!
 
 p.s. : The list is sorted from the latest projects i've done.
 
