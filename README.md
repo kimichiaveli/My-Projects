@@ -21,21 +21,21 @@ Also, by exploring our data we could gain new insight of our customer's behaviou
 **EDA**
 
 Here's the features correlation heatmap, notice that 'Previously_Insured' has the highest correlation on the 'Response'<br>
-![alt text](https://github.com/kimichiaveli/Health_Insurance_Cross_Sell/blob/main/heatmapcorr.png 'Correlation Heatmap')<p>
+![alt text](https://github.com/kimichiaveli/Health_Insurance_Cross_Sell/blob/main/heatmapcorr.png?raw=true 'Correlation Heatmap')<p>
 Pretty sure that only people who currently don't have vehicle insured will response positively<br>
-![alt text](https://github.com/kimichiaveli/Health_Insurance_Cross_Sell/blob/main/previnsured.png 'Previously_Insured countplot')<p>
+![alt text](https://github.com/kimichiaveli/Health_Insurance_Cross_Sell/blob/main/previnsured.png?raw=true 'Previously_Insured countplot')<p>
 Here we can see how the vehicle age and damage distribution based on their response<br>
-![alt text](https://github.com/kimichiaveli/Health_Insurance_Cross_Sell/blob/main/vehage.PNG 'Vehicle Age based on the response')<p>
-![alt text](https://github.com/kimichiaveli/Health_Insurance_Cross_Sell/blob/main/vehcomp.PNG 'Vehicle Composition')<p>
+![alt text](https://github.com/kimichiaveli/Health_Insurance_Cross_Sell/blob/main/vehage.PNG?raw=true 'Vehicle Age based on the response')<p>
+![alt text](https://github.com/kimichiaveli/Health_Insurance_Cross_Sell/blob/main/vehcomp.PNG?raw=true 'Vehicle Composition')<p>
 
 **Model Evaluation**
 
 Classification Metrics of CatBoost model with auto-balanced class weight<br>
-![alt text](https://github.com/kimichiaveli/Health_Insurance_Cross_Sell/blob/main/classweightmetric.PNG)<p>
+![alt text](https://github.com/kimichiaveli/Health_Insurance_Cross_Sell/blob/main/classweightmetric.PNG?raw=true)<p>
 Confusion Matrix of CatBoost model with auto-balanced class weight<br>
-![alt text](https://github.com/kimichiaveli/Health_Insurance_Cross_Sell/blob/main/conclassweight.png)<p>
+![alt text](https://github.com/kimichiaveli/Health_Insurance_Cross_Sell/blob/main/conclassweight.png?raw=true)<p>
 ROC-AUC plot CatBoost model with auto-balanced class weight<br>
-![alt text](https://github.com/kimichiaveli/Health_Insurance_Cross_Sell/blob/main/rocaucclassweight.png)
+![alt text](https://github.com/kimichiaveli/Health_Insurance_Cross_Sell/blob/main/rocaucclassweight.png?raw=true)
 
 ## [AV Healthcare Analytics II Hackathon](https://github.com/kimichiaveli/AV-Healthcare-Analytics-II-Project/)
 
