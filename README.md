@@ -2,7 +2,7 @@
 This is my list of personal and professional projects that i've done. Feel free to look and give feedbacks if you want!
 p.s. : The list is sorted from the latest projects i've done.
 
-1. [Cross-sell Prediction Hackathon](https://github.com/kimichiaveli/Health_Insurance_Cross_Sell/)
+## 1. [Cross-sell Prediction Hackathon](https://github.com/kimichiaveli/Health_Insurance_Cross_Sell/)
 
 Cross-selling identifies products or services that satisfy additional, complementary needs that are unfulfilled by the original product that a customer possesses. As an example, a mouse could be cross-sold to a customer purchasing a keyboard. Oftentimes, cross-selling points users to products they would have purchased anyways; by showing them at the right time, a store ensures they make the sale.
 
@@ -36,5 +36,5 @@ Confusion Matrix of CatBoost model with auto-balanced class weight<br>
 ROC-AUC plot CatBoost model with auto-balanced class weight<br>
 ![alt text](https://github.com/kimichiaveli/Health_Insurance_Cross_Sell/blob/main/rocaucclassweight.png)
 
-2. [AV Healthcare Analytics II Hackathon](https://github.com/kimichiaveli/AV-Healthcare-Analytics-II-Project/)
-3. [Titanic](https://github.com/kimichiaveli/Titanic/)
+## 2. [AV Healthcare Analytics II Hackathon](https://github.com/kimichiaveli/AV-Healthcare-Analytics-II-Project/)
+## 3. [Titanic](https://github.com/kimichiaveli/Titanic/)
