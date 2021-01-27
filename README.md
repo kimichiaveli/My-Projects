@@ -9,7 +9,7 @@ Cross-selling identifies products or services that satisfy additional, complemen
 
 In this case, we are tasked to cross-sell our vehicle insurance product to people who bought our health insurance. But we can't just pitch everyone into buying them because it will be time consuming. So, how do we know which one we have to ask to buy the insurance?
 
-**Approach**
+### Approach
 
 By creating Machine Learning model to predict customer's response, we could :
 
@@ -18,23 +18,22 @@ By creating Machine Learning model to predict customer's response, we could :
 
 Also, by exploring our data we could gain new insight of our customer's behaviour.
 
-**EDA**
+### EDA
 
-Here's the features correlation heatmap, notice that 'Previously_Insured' has the highest correlation on the 'Response'<br>
+**Here's the features correlation heatmap, notice that 'Previously_Insured' has the highest correlation on the 'Response'**<br>
 ![alt text](https://github.com/kimichiaveli/Health_Insurance_Cross_Sell/blob/main/heatmapcorr.png?raw=true 'Correlation Heatmap')<br><br>
-Pretty sure that only people who currently don't have vehicle insured will response positively<br>
+**Pretty sure that only people who currently don't have vehicle insured will response positively**<br>
 ![alt text](https://github.com/kimichiaveli/Health_Insurance_Cross_Sell/blob/main/previnsured.png?raw=true 'Previously_Insured countplot')<br><br>
-Here we can see how the vehicle age and damage distribution based on their response<br>
+**Here we can see how the vehicle age and damage distribution based on their response**<br>
 ![alt text](https://github.com/kimichiaveli/Health_Insurance_Cross_Sell/blob/main/vehage.PNG?raw=true 'Vehicle Age based on the response')<br><br>
-![alt text](https://github.com/kimichiaveli/Health_Insurance_Cross_Sell/blob/main/vehcomp.PNG?raw=true 'Vehicle Composition')<br><br>
 
-**Model Evaluation**
+### Model Evaluation
 
-Classification Metrics of CatBoost model with auto-balanced class weight<br>
+**Classification Metrics of CatBoost model with auto-balanced class weight**<br>
 ![alt text](https://github.com/kimichiaveli/Health_Insurance_Cross_Sell/blob/main/classweightmetric.PNG?raw=true)<br><br>
-Confusion Matrix of CatBoost model with auto-balanced class weight<br>
+**Confusion Matrix of CatBoost model with auto-balanced class weight**<br>
 ![alt text](https://github.com/kimichiaveli/Health_Insurance_Cross_Sell/blob/main/conclassweight.png?raw=true)<br><br>
-ROC-AUC plot CatBoost model with auto-balanced class weight<br>
+**ROC-AUC plot CatBoost model with auto-balanced class weight**<br>
 ![alt text](https://github.com/kimichiaveli/Health_Insurance_Cross_Sell/blob/main/rocaucclassweight.png?raw=true)<br><br>
 
 ## [AV Healthcare Analytics II Hackathon](https://github.com/kimichiaveli/AV-Healthcare-Analytics-II-Project/)
