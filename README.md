@@ -1,8 +1,3 @@
-# ABDUL HAKIM MUZAKKI - MY PROJECTS
-Hi there! Welcome to my portofolio page. This is my list of personal and professional projects that i've done. Feel free to look and give feedbacks if you want!
-
-p.s. : The list is sorted from the latest projects i've done.
-
 ## [Cross-sell Prediction Hackathon](https://github.com/kimichiaveli/Health_Insurance_Cross_Sell/)
 
 Cross-selling identifies products or services that satisfy additional, complementary needs that are unfulfilled by the original product that a customer possesses. As an example, a mouse could be cross-sold to a customer purchasing a keyboard. Oftentimes, cross-selling points users to products they would have purchased anyways; by showing them at the right time, a store ensures they make the sale.
