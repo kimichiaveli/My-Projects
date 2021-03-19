@@ -2,6 +2,22 @@
 
 
 
+## [E-Commerce Data Analytics](https://github.com/kimichiaveli/Health_Insurance_Cross_Sell/)
+
+Provided with the transaction data and relevant user information of an e-commerce platform, find out:
+
+1. What factors contribute to users making a purchase?
+2. What factors contribute to users generating higher basket amounts?
+
+### Approach
+
+1. Explore the Datasets
+2. Find relevant features (in which the e-commerce can control to maximize the output)
+3. Find correlation and pattern to prioritize the biggest deciding feature to the output.
+4. Explore the user’s behaviour to find the best strategy for each of them.
+
+### Insight
+
 ## [Cross-sell Prediction Hackathon](https://github.com/kimichiaveli/Health_Insurance_Cross_Sell/)
 
 Cross-selling identifies products or services that satisfy additional, complementary needs that are unfulfilled by the original product that a customer possesses. As an example, a mouse could be cross-sold to a customer purchasing a keyboard. Oftentimes, cross-selling points users to products they would have purchased anyways; by showing them at the right time, a store ensures they make the sale.
