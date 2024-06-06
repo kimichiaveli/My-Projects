@@ -1,6 +1,58 @@
 # Hakim's Projects:
 
+## [Drugs Review](https://github.com/kimichiaveli/Drugs-Review)
 
+I did Exploratory Data Analysis, visualization on reviews using WordCloud, keywords extraction, and sentiment analysis using a dataset from Kaggle.
+
+### Drug Effectiveness, Side Effects, and Ratings Correlation
+
+Does effectiveness correlate with side effects? **Yes, it does!** The data shows that as **drug effectiveness rises**, **severe side effects decline** while **no or mild side effects increase** notably, with highly effective drugs showing the most favorable profile.
+
+What about ratings given by the consumer? It is shown that **rating has positive correlation with effectiveness** while having a **negative correlation with side effects**. Also, the effectiveness of a drug has a slightly stronger correlation than side effects, meaning that Highly Effective drugs will probably guarantee their ratings no less than 7.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/kimichiaveli/Drugs-Review/main/chart/effectiveness_sideEffects.png" width="720">
+</div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/kimichiaveli/Drugs-Review/main/chart/effectiveness_sideEffects_100.png" width="720">
+</div>
+
+### Lexapro: Most Common Prescribed Drugs to Treat Depression
+
+I tried to dig deeper into a few certain medical conditions to gain more insights, one of them is *depression*. Here are the top 5 drugs prescribed to treat depression.
+
+<div align="center">
+  <p><b>Top 5 Drugs Prescribed for Depression</b></p>
+  <img src="https://github.com/kimichiaveli/Drugs-Review/blob/main/table/depression_top5.png">
+</div>
+
+From what I've gathered using TF-IDF, *Lexapro* might cause weight gain to the patients, and *Zoloft* might cause side effects to libido and nausea. Let's look into *Lexapro* a little bit further!
+
+<div align="center">
+  <p><b>Lexparo Medical Conditions</b></p>
+  <img src="https://raw.githubusercontent.com/kimichiaveli/Drugs-Review/main/chart/lexapro_med_conditions.png" width="400">
+</div>
+
+Using word cloud visualization on *Lexapro* data, it looks like not only to treat depression but *Lexapro* can be prescribed to treat anxiety, PTSD, and panic attacks.
+
+### Accutane: Most Common Prescribed Drugs to Treat Acne Problems
+
+Next, I would like to dwell into acne treatment drugs. Here are the top 5 drugs prescribed to treat acne and the most popular is *Accutane*
+
+<div align="center">
+  <p><b>Top 5 Drugs Prescribed for Acne Treatment</b></p>
+  <img src="https://github.com/kimichiaveli/Drugs-Review/blob/main/table/acne_top5.png">
+</div>
+
+Generally, *Accutane* might cause dry skin judging by what keywords can be extracted from sideEffects column. I tried to analyze a little bit further by using Latent Dirichlet allocation model (LDA). LDA is a probabilistic model that identifies hidden topics within a set of documents by assuming that each document is a combination of multiple topics and each topic is characterized by a distribution of words. This allows for the discovery of abstract topics that explain the patterns of word occurrence in the documents.
+
+<div align="center">
+  <p><b>Accutane 5 Main Topics in Side Effects Section</b></p>
+  <img src="https://raw.githubusercontent.com/kimichiaveli/Drugs-Review/main/chart/accutane_topics_sideeffects.png">
+</div>
+
+There are 5 topics that i extracted, the consumers usually talks about dry skin in the sideEffects section but interestingly there are some mentions about depression. If we look into the raw data, there are a few comments about *Accutane* causing depression.
 
 ## [E-Commerce Data Analytics](https://github.com/kimichiaveli/E-Commerce-Data-Analytics/)
 
