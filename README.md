@@ -5,6 +5,7 @@ This repository contains all of my data science projects. Each project is stored
 ## Contents
 
 * ### Machine Learning
+  * [Strava Commute](https://github.com/kimichiaveli/strava-commute): ETL Pipeline to fetch data from Strava to give a better understanding on bike-commuting trend.
   * [Cross-sell Prediction Hackathon](https://github.com/kimichiaveli/Health_Insurance_Cross_Sell/): Building ML model that predict customer's response to maximize revenue by capturing all of the insurance market share.
   * [AV Healthcare Analytics II Hackathon](https://github.com/kimichiaveli/AV-Healthcare-Analytics-II-Project/): Prediction model on patient's Length of Stay to improve the efficiency of healthcare management during COVID-19 pandemic.
 * ### Natural Language Processing
